@@ -1,0 +1,38 @@
+# 1. 依赖包
+node_modules/
+/.pnp
+.pnp.js
+
+# 2. 构建产物与缓存 (VitePress / Vite 相关)
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+.temp/
+.cache/
+
+# 3. 环境变量与机密文件 (防止密码和 API Key 泄漏)
+.env
+.env.local
+.env.*.local
+
+# 4. 系统和编辑器临时文件
+# macOS 自动生成的文件夹
+.DS_Store
+# Windows 缩略图
+Thumbs.db
+ehthumbs.db
+
+# 5. IDE 开发工具配置
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 6. 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
